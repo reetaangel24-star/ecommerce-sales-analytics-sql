@@ -1,0 +1,97 @@
+# Data Dictionary
+
+## Database Name
+
+projectsql
+
+---
+
+## customers
+
+| Column Name | Description |
+|-------------|-------------|
+| customer_id | Unique customer identifier |
+| customer_unique_id | Unique customer across multiple orders |
+| customer_zip_code_prefix | Customer ZIP code prefix |
+| customer_city | Customer city |
+| customer_state | Customer state |
+
+---
+
+## orders
+
+| Column Name | Description |
+|-------------|-------------|
+| order_id | Unique order identifier |
+| customer_id | Customer who placed the order |
+| order_status | Order status |
+| order_purchase_timestamp | Order purchase date and time |
+| order_approved_at | Order approval time |
+| order_delivered_carrier_date | Carrier pickup date |
+| order_delivered_customer_date | Customer delivery date |
+| order_estimated_delivery_date | Estimated delivery date |
+
+---
+
+## products
+
+| Column Name | Description |
+|-------------|-------------|
+| product_id | Unique product identifier |
+| product_category_name | Product category |
+| product_name_length | Product name length |
+| product_description_length | Product description length |
+| product_photos_qty | Number of product photos |
+| product_weight_g | Product weight in grams |
+| product_length_cm | Product length |
+| product_height_cm | Product height |
+| product_width_cm | Product width |
+
+---
+
+## sellers
+
+| Column Name | Description |
+|-------------|-------------|
+| seller_id | Unique seller identifier |
+| seller_zip_code_prefix | Seller ZIP code |
+| seller_city | Seller city |
+| seller_state | Seller state |
+
+---
+
+## order_items
+
+| Column Name | Description |
+|-------------|-------------|
+| order_id | Related order |
+| order_item_id | Item number in order |
+| product_id | Purchased product |
+| seller_id | Seller of product |
+| shipping_limit_date | Shipping deadline |
+| price | Product price |
+| freight_value | Shipping cost |
+
+---
+
+## order_payments
+
+| Column Name | Description |
+|-------------|-------------|
+| order_id | Related order |
+| payment_sequential | Payment sequence |
+| payment_type | Payment method |
+| payment_installments | Number of installments |
+| payment_value | Amount paid |
+
+---
+
+## order_reviews
+
+| Column Name | Description |
+|-------------|-------------|
+| review_id | Review identifier |
+| order_id | Related order |
+| review_score | Customer rating |
+| review_creation_date | Review creation date |
+| review_answer_timestamp | Review response timestamp |

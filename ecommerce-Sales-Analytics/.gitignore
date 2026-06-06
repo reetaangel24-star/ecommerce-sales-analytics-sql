@@ -1,0 +1,44 @@
+# Operating System Files
+
+.DS_Store
+Thumbs.db
+
+# MySQL Workbench
+
+*.mwb.bak
+
+# Logs
+
+*.log
+
+# Temporary Files
+
+*.tmp
+*.temp
+
+# IDE Files
+
+.vscode/
+.idea/
+
+# Python Cache (for future upgrades)
+
+**pycache**/
+*.pyc
+
+# Environment Files
+
+.env
+
+# Jupyter Notebooks
+
+.ipynb_checkpoints/
+
+# Power BI Temporary Files
+
+*.pbix.autosave
+
+# Generated Reports
+
+reports/*.pdf
+reports/*.xlsx

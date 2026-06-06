@@ -1,171 +1,121 @@
-# E-Commerce Sales Analytics Dashboard
+# 📊 E-Commerce Sales Analytics Project (MySQL)
 
-## Overview
+## 🚀 Project Overview
 
-A real-world E-Commerce Sales Analytics project built using MySQL and the Olist Brazilian E-Commerce Dataset. The project analyzes customer behavior, product performance, sales trends, revenue growth, and inventory insights using advanced SQL techniques.
+This project is a real-world **E-Commerce Sales Analytics system** built using MySQL.  
+It analyzes transactional data to extract meaningful business insights such as sales performance, customer behavior, product trends, and revenue growth.
 
-## Project Objectives
+The project simulates how **data analysts and business intelligence professionals** work in real companies to support data-driven decision-making.
 
-* Analyze sales performance and revenue trends
-* Identify top-selling and high-revenue products
-* Segment customers based on spending behavior
-* Measure customer lifetime value (CLV)
-* Track repeat customer activity
-* Evaluate category-level performance
-* Calculate key business KPIs
-* Build executive business reports using SQL
+---
 
-## Dataset
+## 🎯 Business Problem
 
-**Dataset:** Olist Brazilian E-Commerce Public Dataset
+E-commerce companies generate large volumes of data daily. However, raw data alone does not provide insights.
 
-The dataset contains real-world e-commerce transactions including:
+This project solves:
 
-* Customers
-* Orders
-* Products
-* Sellers
-* Payments
-* Reviews
-* Geolocation Data
-* Product Categories
+- How to identify top-performing products?
+- How to analyze monthly revenue trends?
+- Who are the most valuable customers?
+- Which products are underperforming?
+- How can business decisions be improved using SQL analytics?
 
-## Technologies Used
+---
 
-* MySQL 8.0
-* SQL
-* Git
-* GitHub
+## 🎯 Project Objectives
 
-## SQL Skills Demonstrated
+- Analyze overall sales performance
+- Identify top-selling products and categories
+- Track monthly revenue trends
+- Segment customers based on spending behavior
+- Evaluate seller performance
+- Detect fast-moving and slow-moving products
+- Build reusable SQL reporting structures
 
-* INNER JOIN
-* Aggregations
-* GROUP BY
-* HAVING
-* Common Table Expressions (CTEs)
-* Window Functions
-* Views
-* Stored Procedures
-* Triggers
-* Ranking Functions
-* Date Functions
-* Business KPI Analysis
+---
 
-## Database Tables
+## 🛠️ Tech Stack
 
-| Table Name                   | Purpose                          |
-| ---------------------------- | -------------------------------- |
-| customers                    | Customer information             |
-| orders                       | Order transactions               |
-| order_items                  | Products purchased in each order |
-| products                     | Product catalog                  |
-| sellers                      | Seller information               |
-| order_payments               | Payment details                  |
-| order_reviews                | Customer reviews                 |
-| geolocation                  | Geographic information           |
-| product_category_translation | Category translations            |
+- MySQL
+- SQL (Advanced Level)
+- Git & GitHub
+- CSV Dataset
 
-## Business Questions Answered
+---
 
-### Sales Analytics
+## 📂 Project Structure
 
-* What are the top-selling products?
-* Which products generate the highest revenue?
-* Which categories contribute the most revenue?
 
-### Customer Analytics
+dataset/
+schema/
+queries/
+views/
+procedures/
+triggers/
+reports/
+screenshots/
 
-* Who are the highest-value customers?
-* Who are the repeat customers?
-* What is the Customer Lifetime Value (CLV)?
 
-### Revenue Analytics
+---
 
-* What are the monthly revenue trends?
-* Which months generate the highest revenue?
-* What is the Average Order Value (AOV)?
+## 🧠 SQL Concepts Used
 
-### Product Analytics
+- JOINs
+- Aggregations (SUM, COUNT, AVG)
+- GROUP BY & HAVING
+- CTEs
+- Window Functions
+- Views
+- Stored Procedures
+- Triggers
+- Date Functions
 
-* Which products are fast-moving?
-* Which products are slow-moving?
-* Which categories drive business growth?
+---
 
-## Advanced SQL Features
+## 📊 Key Business Insights
 
-### Views
+- Monthly revenue trends analyzed
+- Top-selling products identified
+- High-value customers segmented
+- Inventory performance evaluated
+- Customer behavior analyzed
+- Seller contribution measured
 
-Reusable reporting layer for sales analysis.
+---
 
-### CTEs
+## 📸 Screenshots
 
-Improved query readability and modular analytics.
+Add images from your `screenshots/` folder:
+- Top Products
+- Revenue Analysis
+- Customer Insights
+- Category Performance
 
-### Window Functions
+---
 
-Customer ranking, revenue ranking, and business KPI analysis.
+## 📈 Business Impact
 
-### Stored Procedures
+This project helps businesses:
 
-Reusable business logic implementation.
+- Improve revenue tracking
+- Identify top customers
+- Optimize inventory
+- Improve product strategy
+- Support data-driven decisions
 
-### Triggers
+---
 
-Automated audit logging for database events.
-
-## Project Structure
-
-ecommerce-sales-analytics/
-
-├── dataset/
-
-├── schema/
-
-├── queries/
-
-├── views/
-
-├── procedures/
-
-├── triggers/
-
-├── reports/
-
-├── screenshots/
-
-└── README.md
-
-## Key Performance Indicators (KPIs)
-
-* Total Revenue
-* Total Orders
-* Total Customers
-* Average Order Value
-* Top Revenue Category
-* Top Spending Customers
-* Monthly Revenue Growth
-
-## Key Insights
-
-* Revenue is concentrated in a small number of product categories.
-* A small percentage of customers contribute a significant portion of revenue.
-* Repeat customers generate higher lifetime value.
-* Product performance varies significantly across categories.
-* Monthly sales trends reveal seasonal purchasing patterns.
-
-## Future Enhancements
-
-* Power BI Dashboard Integration
-* Python-Based ETL Pipeline
-* Sales Forecasting Models
-* Customer Churn Prediction
-* Interactive Analytics Dashboard using Streamlit
-
-## Author
+## 👨‍💻 Author
 
 Angel
 
-## License
+---
 
-This project is intended for educational, portfolio, and learning purposes.
+## ⭐ Conclusion
+
+This project demonstrates a complete SQL-based E-Commerce analytics system suitable for:
+
+- Data Analyst roles
+- SQL Developer roles
+- Business Intelligence roles

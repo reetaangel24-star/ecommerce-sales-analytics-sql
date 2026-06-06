@@ -134,14 +134,6 @@ This project helps organizations:
 
 ---
 
-## 🧪 How to Run This Project
-
-```bash
-git clone https://github.com/reetaangel24-star/ecommerce-sales-analytics-sql.git
-Import dataset into MySQL
-Run SQL scripts from queries/
-Execute views, procedures, and triggers
-Analyze results in MySQL Workbench
 👨‍💻 Author
 
 Angel
@@ -149,3 +141,21 @@ Angel
 ⭐ Conclusion
 
 This project demonstrates an end-to-end E-Commerce Data Analytics system using SQL, covering data extraction, transformation, and business insight generation.
+
+
+## 🧪 How to Run This Project
+
+1. Clone the repository
+```bash
+git clone https://github.com/reetaangel24-star/ecommerce-sales-analytics-sql.git
+Import dataset into MySQL
+Run SQL scripts from:
+queries/
+Execute advanced SQL objects:
+Views
+Stored Procedures
+Triggers
+Analyze results in MySQL Workbench
+  
+
+
